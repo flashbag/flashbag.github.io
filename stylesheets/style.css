@@ -50,7 +50,7 @@ body {
   width: 100%;
   margin-top: 30px; }
   .buttons > div {
-    width: 33%;
+    width: 30%;
     display: inline-block; }
     .buttons > div a {
       background-color: #43ac6a;
@@ -67,6 +67,10 @@ body {
       padding-left: 2rem;
       font-size: 1.5rem; }
 
+@media screen and (min-width: 1024px) and (max-width: 2048px) {
+  .buttons > div {
+    width: 20%;
+    display: inline-block; } }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   body {
     width: 100%; } }

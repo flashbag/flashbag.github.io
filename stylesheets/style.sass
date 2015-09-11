@@ -62,7 +62,7 @@ body
   width: 100%
   margin-top: 30px
   > div
-    width: 33%
+    width: 30%
     display: inline-block
     a
       background-color: #43ac6a
@@ -78,6 +78,14 @@ body
       padding-bottom: 1.0625rem
       padding-left: 2rem
       font-size: 1.5rem
+
+
+@include screen(1024px, 2048px)
+  .buttons
+    > div
+      width: 20%
+      display: inline-block
+
 
 @import "tablet"
 @import "phone"
