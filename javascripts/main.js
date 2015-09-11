@@ -1,1 +1,23 @@
-console.log('This would be the main JS file.');
+$(document).ready(function(){
+
+    var $si = $('.si');
+
+    $si.mouseover(function(){
+        $(this).animate({width: '160px'
+            // , height: '60px'
+            // , 'margin-top': '4px'
+        }, 500,function(){
+            $(this).animate({width: '135px'
+                // , height: '64px'
+                // , 'margin-top': '0px'
+            },100)
+        });
+    });
+
+    $si.mouseleave(function(){
+        $(this).animate({width: "125px"
+            // , height: '64px'
+        }, 200);
+    });
+
+});
