@@ -1,0 +1,101 @@
+body {
+  font-family: "Ubuntu", Verdana, sans-serif;
+  background: #f8f8f8;
+  font-style: normal;
+  text-align: center;
+  margin-top: 50px; }
+
+.primary-title, .secondary-title {
+  word-spacing: 0;
+  line-height: 1.4; }
+
+.primary-title {
+  font-size: 4em; }
+
+.secondary-title {
+  font-size: 2.5em; }
+
+.contacts {
+  margin: 20px; }
+  .contacts > div {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%; }
+    .contacts > div img {
+      width: 64px; }
+    .contacts > div a {
+      color: #008cba;
+      display: inline-block;
+      text-decoration: none;
+      height: 64px; }
+      .contacts > div a > div {
+        display: inline-block;
+        line-height: 64px;
+        height: 64px;
+        font-size: 30px; }
+        .contacts > div a > div:first-child {
+          float: left;
+          margin-right: 20px; }
+      .contacts > div a:hover {
+        color: #0078a0;
+        text-decoration: underline; }
+      .contacts > div a span {
+        font-size: 30px;
+        clear: both; }
+
+.social a {
+  width: 135px; }
+
+.buttons {
+  width: 100%;
+  margin-top: 30px; }
+  .buttons > div {
+    width: 33%;
+    display: inline-block; }
+    .buttons > div a {
+      background-color: #43ac6a;
+      width: 60%;
+      color: #fff;
+      cursor: pointer;
+      margin: 0 0 1.25rem;
+      text-decoration: none;
+      text-align: center;
+      display: inline-block;
+      padding-top: 1rem;
+      padding-right: 2rem;
+      padding-bottom: 1.0625rem;
+      padding-left: 2rem;
+      font-size: 1.5rem; }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    width: 100%; } }
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  body {
+    width: 100%; } }
+@media screen and (min-width: 320px) and (max-width: 640px) {
+  body {
+    margin-top: 10px; }
+
+  .contacts {
+    margin: 0; }
+    .contacts > div img {
+      width: 48px; }
+    .contacts > div a {
+      height: 48px; }
+      .contacts > div a > div {
+        display: inline-block;
+        line-height: 48px;
+        height: 48px;
+        font-size: 20px; }
+        .contacts > div a > div:first-child {
+          margin-right: 10px; }
+      .contacts > div a span {
+        font-size: 20px;
+        clear: both; }
+
+  .buttons > div {
+    width: 100%;
+    display: block; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,28 @@
+@include screen(320px, 640px)
+
+  body
+    margin-top: 10px
+
+  .contacts
+    margin: 0
+    > div
+      img
+        width: 48px
+      a
+        height: 48px
+        > div
+          display: inline-block
+          line-height: 48px
+          height: 48px
+          font-size: 20px
+
+          &:first-child
+            margin-right: 10px
+
+        span
+          font-size: 20px
+          clear: both
+  .buttons
+    > div
+      width: 100%
+      display: block

@@ -1,0 +1,83 @@
+@import "media-queries"
+
+
+
+body
+  font-family: 'Ubuntu', Verdana, sans-serif
+  background: #f8f8f8
+  //background: #f8f8f8 url("../images/body-bg.png")
+  font-style: normal
+  text-align: center
+  margin-top: 50px
+
+.primary-title, .secondary-title
+  word-spacing: 0
+  line-height: 1.4
+
+.primary-title
+  font-size: 4em
+
+.secondary-title
+  font-size: 2.5em
+
+.contacts
+  margin: 20px
+  > div
+    display: block
+    margin-bottom: 10px
+    width: 100%
+
+    img
+      width: 64px
+
+    a
+      color: #008cba
+      display: inline-block
+      text-decoration: none
+      height: 64px
+      > div
+        display: inline-block
+        line-height: 64px
+        height: 64px
+        font-size: 30px
+
+        &:first-child
+          float: left
+          margin-right: 20px
+
+
+      &:hover
+        color: #0078a0
+        text-decoration: underline
+
+      span
+        font-size: 30px
+        clear: both
+
+.social
+  a
+    width: 135px
+
+.buttons
+  width: 100%
+  margin-top: 30px
+  > div
+    width: 33%
+    display: inline-block
+    a
+      background-color: #43ac6a
+      width: 60%
+      color: #fff
+      cursor: pointer
+      margin: 0 0 1.25rem
+      text-decoration: none
+      text-align: center
+      display: inline-block
+      padding-top: 1rem
+      padding-right: 2rem
+      padding-bottom: 1.0625rem
+      padding-left: 2rem
+      font-size: 1.5rem
+
+@import "tablet"
+@import "phone"
